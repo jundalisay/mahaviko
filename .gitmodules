@@ -1,0 +1,3 @@
+[submodule "themes/viko"]
+	path = themes/viko
+	url = git@github.com:jundalisay/vikotheme.git

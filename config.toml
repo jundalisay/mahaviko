@@ -1,0 +1,55 @@
+baseURL = "https://www.acme-corp.com"
+languageCode = "en-gb"
+title = "Lorem ipsum dolor sit amet"
+theme = "viko"
+enableRobotsTXT = true
+copyright = "Copyright © 2018-{year} Acme Corp. All rights reserved."
+
+[params]
+author = "John Doe"
+description = "Lorem ipsum dolor sit amet"
+# Needed for analytics
+facebook_app_id = "123456789"
+
+# Text that appears on the home page
+[params.home]
+title = "Lorem ipsum dolor sit amet"
+subtitle = "Vestibulum interdum magna"
+intro = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a enim nisl. Aenean in ullamcorper tortor, in pretium dui. Vivamus viverra maximus elit."
+
+# Contact page and footer.
+# Also feeds the generated ld+json https://schema.org/Organization which appears on the home page
+[params.contact]
+org_name = "Acme Corp Inc"
+email = "team@acme-corp.com"
+# This appears on the contact page
+full_address = "Acme Corp Inc, 1 Main Street, New York, NY, 10001"
+# These are used in the footer
+street_address = "1 Main Street"
+city = "New York, NY"
+post_code = "10001"
+country = "US"
+
+# Contact page
+[params.contact.phone]
+# number appears as href="tel:xxx-xxx-xxx"
+number = "+1123456789"
+display = "+1 (123) 456 789"
+
+# Contact page
+[params.contact.whatsapp]
+number = "+1123456789"
+display = "+1 (123) 456 789"
+
+# Footer
+[params.social]
+twitter_url = "https://twitter.com/acme"
+# Used for twitter:site field in the twitter cards
+twitter_handle = "@Acme"
+# Used for twitter:creator field in the twitter cards
+author_twitter_handle = "@JohnDoe"
+facebook_url = "https://www.facebook.com/acme/"
+instagram_url = "https://www.instagram.com/acme/"
+
+
+
